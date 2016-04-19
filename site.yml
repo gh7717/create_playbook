@@ -1,4 +1,5 @@
 ---
 - hosts: localhost
-  roles:
-      - common
+  tasks:
+    - name: test
+      create_playbook: src=./zones
