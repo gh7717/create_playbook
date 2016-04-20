@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
     - name: test
-      create_playbook: src=./zones
+      create_playbook: src=./zones name=test 
